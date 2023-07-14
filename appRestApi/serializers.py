@@ -10,4 +10,5 @@ class PosterDadosSerializer(serializers.ModelSerializer):
                   'autor',
                   'titulo',
                   'descricao',
-                  'datapublicacao')
+                  'datapublicacao',
+                  'published')
